@@ -28,8 +28,4 @@ public class Confusing {
     }
 }
 
-/* Before running the code, type your answer below.
-
-TODO: Write output here
-
-Then, click the green play button to check your work. */
+/** Before running the code, type your answer below.*/

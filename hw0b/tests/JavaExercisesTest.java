@@ -6,7 +6,6 @@ import static com.google.common.truth.Truth.assertThat;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class JavaExercisesTest {
-
     @Test
     @Order(0)
     @DisplayName("Test makeDice correctness")
@@ -18,7 +17,6 @@ public class JavaExercisesTest {
             assertThat(dice[i]).isEqualTo(i + 1);
         }
     }
-
     @Test
     @Order(1)
     @DisplayName("Test takeOrder correctness")
